@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -13,7 +13,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white">
-    <a class="navbar-brand" href="index.html">Inventory Management System</a>
+    <a class="navbar-brand" href="index.html"><b>Inventory Management System</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,8 +31,10 @@
     </div>
   </nav>
 
-
-  <div class="container py-5" style="margin-top: 15vh;">    
+<br><br>
+  <h1 class="h1 font-weight-bold" style="text-align: center;">Dashboard</h1>   
+<br>
+  <div class="container py-5"> 
     <div class="row pb-5 mb-4"  style="justify-content: space-evenly;">
 
       <a href="retailers.html">
@@ -59,13 +61,13 @@
         </div>
       </a>
 
-      <a href="under-stock.html">
+      <a href="low-stock.html">
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="card rounded card-bg shadow-sm border-0" style="margin-bottom: 20px;">
             <div style="text-align: center;" class="card-body p-4"><img src="../static/images/lowStock.png" alt="" class="img-fluid d-block mx-auto mb-3">
               <br>
-              <h5> <a href="under-stock.html" class="text-dark">Under Stock Products</a></h5>
-              <p class="small text-muted font-italic">View Under stock products at one place</p>
+              <h5> <a href="low-stock.html" class="text-dark">Low Stock Products</a></h5>
+              <p class="small text-muted font-italic">View products which are under the minimum required stock</p>
             </div>
           </div>
         </div>
